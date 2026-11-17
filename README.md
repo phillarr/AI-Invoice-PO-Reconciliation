@@ -74,3 +74,7 @@ Gmail (email with attachment) ──► Attachments ──► Google Drive (uplo
 - **Invoice and PO contents are sent to Google Cloud Vision and to the AI provider** for processing.
 - **API keys and OAuth tokens stay in your Make connections** and are never exported in the blueprint.
 - **Invoices are untrusted input.** A supplier could add text designed to trick the AI (prompt injection) into approving an invoice. Never pay on the AI's status alone.
+
+## License
+
+[MIT](LICENSE)
