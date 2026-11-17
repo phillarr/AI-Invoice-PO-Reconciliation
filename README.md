@@ -2,7 +2,13 @@
 
 A scenario that picks up supplier invoices received by email, finds the matching purchase order (PO) in Google Drive, asks an AI agent to compare them line by line, and logs the result (approved, discrepancy found or escalated) in Google Sheets.
 
+▶️ **Video tutorial:** [watch on YouTube](https://www.youtube.com/watch?v=fF-biOX_5zc)
+
+[![Watch the tutorial on YouTube](https://img.youtube.com/vi/fF-biOX_5zc/hqdefault.jpg)](https://www.youtube.com/watch?v=fF-biOX_5zc)
+
 ## The scenario
+
+![Make.com scenario: Gmail → Google Drive → Google Cloud Vision (OCR) → Text parser → Google Drive (find the PO) → Make AI Agent → JSON → Google Sheets](images/make-scenario.png)
 
 ```
 Gmail (email with attachment) ──► Attachments ──► Google Drive (upload + share) ──► Download ──► Google Cloud Vision (OCR)
