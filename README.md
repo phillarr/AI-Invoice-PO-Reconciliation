@@ -1,6 +1,6 @@
 # AI Invoice & PO Reconciliation
 
-A [Make.com](https://www.make.com) scenario that picks up supplier invoices received by email, finds the matching purchase order (PO) in Google Drive, asks an AI agent to compare them line by line, and logs the result (approved, discrepancy found or escalated) in Google Sheets.
+A scenario that picks up supplier invoices received by email, finds the matching purchase order (PO) in Google Drive, asks an AI agent to compare them line by line, and logs the result (approved, discrepancy found or escalated) in Google Sheets.
 
 ## The scenario
 
